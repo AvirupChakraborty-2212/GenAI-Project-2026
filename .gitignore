@@ -1,0 +1,73 @@
+# Project proposal, notes, and documentation files (keep README)
+*.md
+!README.md
+!**/README.md
+
+# Explicitly ignore CacheSeeker
+[Cc]ache[Ss]eeker.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Deep Learning / ML / Model Checkpoints & Datasets
+checkpoints/
+weights/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.tflite
+models/
+data/
+dataset/
+runs/
+wandb/
+.cache/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
